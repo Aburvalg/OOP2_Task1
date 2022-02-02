@@ -1,7 +1,7 @@
 public class Main {
 
-    public static void main (String [] args){
-        Post post = new Post ();
+    public static void main(String[] args) {
+        Post post = new Post();
         post.birthday = new FormDate();
         post.birthday.day = 11;
         post.birthday.month = 4;
