@@ -2,12 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
         Post post = new Post();
-
         post.birthday = new FormDate();
         post.birthday.day = 11;
         post.birthday.month = 4;
         post.birthday.year = 1984;
-
         post.name = "Иван";
         post.passport = "4444 № 444444";
         post.patronymic = "Иванович";
