@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         Post post = new Post();
+
         post.birthday = new FormDate();
         post.birthday.day = 11;
         post.birthday.month = 4;
@@ -13,6 +14,5 @@ public class Main {
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
         post.subscription = true;
-
     }
 }
